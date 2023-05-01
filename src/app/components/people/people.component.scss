@@ -1,0 +1,35 @@
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px 0 #eee;
+}
+ .card-header {
+  background-color: #272b2f;
+  color: #fff;
+  padding: 10px;
+}
+ .table {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px 0 #eee;
+}
+ .table th {
+  background-color: #25282b;
+  color: #fff;
+}
+ .btn {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+ .btn-primary {
+  background-color: #21262c;
+  border-color: #343b43;
+}
+ .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+ .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
