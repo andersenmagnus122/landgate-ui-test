@@ -13,6 +13,9 @@ import {EffectsModule} from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { PeopleModule } from './components/people/people.module';
+import { PeopleNgrxModule } from './components/people-ngrx/people-ngrx.module';
+import { PersonNgrxComponent } from './components/person-ngrx/person-ngrx.component';
+
 
 
 @NgModule({
@@ -27,6 +30,8 @@ import { PeopleModule } from './components/people/people.module';
     AppRoutingModule,
     CommonModule,
     PeopleModule,
+    PeopleNgrxModule,
+
     StoreModule.forRoot(reducers, {
       metaReducers
     }),
