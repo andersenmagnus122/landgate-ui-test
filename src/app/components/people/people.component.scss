@@ -1,3 +1,11 @@
+
+@media (max-width: 560px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
 .card {
   margin-bottom: 20px;
   border: 1px solid #ddd;
